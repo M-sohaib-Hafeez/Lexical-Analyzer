@@ -1,4 +1,4 @@
-# Lexical Analyzer -- CS-3205 Compiler Construction, Phase 1
+# Lexical Analyzer (made for Compilor Constructon phase 1)
 
 A JavaFX desktop app implementing the Phase 1 lexical analyzer for the C subset in the
 assignment brief.
