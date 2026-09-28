@@ -1,0 +1,240 @@
+Token: KEYWORD
+Lexeme: int
+Line No: 4
+
+Token: IDENTIFIER
+Lexeme: main
+Line No: 4
+
+Token: PUNCTUATOR
+Lexeme: (
+Line No: 4
+
+Token: PUNCTUATOR
+Lexeme: )
+Line No: 4
+
+Token: PUNCTUATOR
+Lexeme: {
+Line No: 4
+
+Token: KEYWORD
+Lexeme: int
+Line No: 5
+
+Token: IDENTIFIER
+Lexeme: _count
+Line No: 5
+
+Token: OPERATOR
+Lexeme: =
+Line No: 5
+
+Token: INTEGER_CONSTANT
+Lexeme: 42
+Line No: 5
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 5
+
+Token: KEYWORD
+Lexeme: char
+Line No: 6
+
+Token: IDENTIFIER
+Lexeme: grade
+Line No: 6
+
+Token: OPERATOR
+Lexeme: =
+Line No: 6
+
+Token: CHAR_CONSTANT
+Lexeme: 'A'
+Line No: 6
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 6
+
+Token: KEYWORD
+Lexeme: char
+Line No: 7
+
+Token: IDENTIFIER
+Lexeme: newline
+Line No: 7
+
+Token: OPERATOR
+Lexeme: =
+Line No: 7
+
+Token: CHAR_CONSTANT
+Lexeme: '\n'
+Line No: 7
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 7
+
+Token: KEYWORD
+Lexeme: char
+Line No: 8
+
+Token: OPERATOR
+Lexeme: *
+Line No: 8
+
+Token: IDENTIFIER
+Lexeme: name
+Line No: 8
+
+Token: OPERATOR
+Lexeme: =
+Line No: 8
+
+Token: STRING_CONSTANT
+Lexeme: "Sohaib \"the\" student\n"
+Line No: 8
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 8
+
+Token: KEYWORD
+Lexeme: if
+Line No: 10
+
+Token: PUNCTUATOR
+Lexeme: (
+Line No: 10
+
+Token: IDENTIFIER
+Lexeme: _count
+Line No: 10
+
+Token: OPERATOR
+Lexeme: >=
+Line No: 10
+
+Token: INTEGER_CONSTANT
+Lexeme: 10
+Line No: 10
+
+Token: PUNCTUATOR
+Lexeme: )
+Line No: 10
+
+Token: PUNCTUATOR
+Lexeme: {
+Line No: 10
+
+Token: IDENTIFIER
+Lexeme: _count
+Line No: 11
+
+Token: OPERATOR
+Lexeme: =
+Line No: 11
+
+Token: IDENTIFIER
+Lexeme: _count
+Line No: 11
+
+Token: OPERATOR
+Lexeme: +
+Line No: 11
+
+Token: INTEGER_CONSTANT
+Lexeme: 1
+Line No: 11
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 11
+
+Token: PUNCTUATOR
+Lexeme: }
+Line No: 12
+
+Token: KEYWORD
+Lexeme: return
+Line No: 14
+
+Token: INTEGER_CONSTANT
+Lexeme: 0
+Line No: 14
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 14
+
+Token: PUNCTUATOR
+Lexeme: }
+Line No: 15
+
+Token: KEYWORD
+Lexeme: int
+Line No: 19
+
+Token: IDENTIFIER
+Lexeme: bad_char
+Line No: 19
+
+Token: OPERATOR
+Lexeme: =
+Line No: 19
+
+Token: KEYWORD
+Lexeme: char
+Line No: 20
+
+Token: OPERATOR
+Lexeme: *
+Line No: 20
+
+Token: IDENTIFIER
+Lexeme: unterminated_string
+Line No: 20
+
+Token: OPERATOR
+Lexeme: =
+Line No: 20
+
+Token: KEYWORD
+Lexeme: int
+Line No: 21
+
+Token: IDENTIFIER
+Lexeme: weird
+Line No: 21
+
+Token: OPERATOR
+Lexeme: =
+Line No: 21
+
+Token: INTEGER_CONSTANT
+Lexeme: 5
+Line No: 21
+
+Token: KEYWORD
+Lexeme: char
+Line No: 22
+
+Token: IDENTIFIER
+Lexeme: nothing
+Line No: 22
+
+Token: OPERATOR
+Lexeme: =
+Line No: 22
+
+=== Lexical Errors ===
+Line 19: Char constant too long
+Line 20: String constant exceeds line
+Line 21: Undefined symbol '~'
+Line 22: Empty char constant
+Line 24: Unterminated comment
+
+Total tokens: 58, errors: 5

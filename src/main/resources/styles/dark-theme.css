@@ -1,0 +1,227 @@
+/* ===== CS-3205 Lexical Analyzer -- Dark IDE Theme ===== */
+
+.root {
+    -fx-font-family: "Consolas", "Menlo", "Courier New", monospace;
+}
+
+.main-view {
+    -fx-background-color: #0b1220;
+}
+
+/* ---------- Header ---------- */
+.header-bar {
+    -fx-background-color: #101a2c;
+    -fx-border-color: transparent transparent #1e293b transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.app-title {
+    -fx-text-fill: #67e8f9;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.mode-box {
+    -fx-background-color: #16223a;
+    -fx-background-radius: 6;
+    -fx-padding: 3;
+}
+
+.mode-toggle {
+    -fx-background-color: transparent;
+    -fx-text-fill: #94a3b8;
+    -fx-background-radius: 5;
+    -fx-padding: 6 14 6 14;
+    -fx-cursor: hand;
+}
+
+.mode-toggle:selected {
+    -fx-background-color: #22d3ee;
+    -fx-text-fill: #052e33;
+    -fx-font-weight: bold;
+}
+
+.run-button {
+    -fx-background-color: #22c55e;
+    -fx-text-fill: #052e13;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+.run-button:disabled {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #64748b;
+}
+.run-button:hover:enabled {
+    -fx-background-color: #16a34a;
+}
+
+.export-button {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #cbd5e1;
+    -fx-background-radius: 6;
+    -fx-padding: 8 14 8 14;
+    -fx-cursor: hand;
+}
+.export-button:hover:enabled {
+    -fx-background-color: #273449;
+}
+.export-button:disabled {
+    -fx-text-fill: #475569;
+}
+
+.status-badge {
+    -fx-padding: 6 14 6 14;
+    -fx-background-radius: 12;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+}
+.status-idle { -fx-background-color: #1e293b; -fx-text-fill: #94a3b8; }
+.status-processing { -fx-background-color: #f59e0b; -fx-text-fill: #451a03; }
+.status-complete { -fx-background-color: #22c55e; -fx-text-fill: #052e13; }
+
+/* ---------- Code Editor ---------- */
+.code-editor {
+    -fx-background-color: #0d1524;
+}
+
+.line-number-gutter {
+    -fx-background-color: #0d1524;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-control-inner-background: #0d1524;
+    -fx-text-fill: #475569;
+    -fx-font-size: 13px;
+    -fx-background-insets: 0;
+    -fx-border-width: 0;
+}
+.line-number-gutter .content { -fx-background-color: #0d1524; }
+/* The gutter only mirrors the editor's scrolling, so its own scrollbars stay invisible. */
+.line-number-gutter .scroll-bar { -fx-opacity: 0; }
+
+.code-text-area {
+    -fx-background-color: #0d1524;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-control-inner-background: #0d1524;
+    -fx-text-fill: #e2e8f0;
+    -fx-font-size: 13px;
+    -fx-highlight-fill: #22d3ee;
+    -fx-highlight-text-fill: #052e33;
+}
+.code-text-area .content { -fx-background-color: #0d1524; }
+
+/* ---------- File Ingestion ---------- */
+.file-ingestion-panel {
+    -fx-background-color: #0d1524;
+    -fx-border-color: #334155;
+    -fx-border-style: segments(8, 6);
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.file-ingestion-panel.drag-over {
+    -fx-border-color: #22d3ee;
+    -fx-background-color: #10243a;
+}
+.ingestion-headline {
+    -fx-text-fill: #cbd5e1;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+.ingestion-subtext {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+}
+.ingestion-status {
+    -fx-text-fill: #475569;
+    -fx-font-size: 11px;
+}
+.browse-button {
+    -fx-background-color: #22d3ee;
+    -fx-text-fill: #052e33;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+}
+.browse-button:hover { -fx-background-color: #06b6d4; }
+
+/* ---------- Token Table ---------- */
+.token-table-panel { -fx-background-color: #0d1524; }
+.token-table {
+    -fx-background-color: #0d1524;
+    -fx-table-cell-border-color: #1e293b;
+}
+.token-table .column-header-background { -fx-background-color: #16223a; }
+.token-table .column-header .label {
+    -fx-text-fill: #94a3b8;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+}
+.token-table .table-row-cell {
+    -fx-background-color: #0d1524;
+    -fx-text-fill: #e2e8f0;
+}
+.token-table .table-row-cell:odd { -fx-background-color: #101b2d; }
+.token-table .table-cell { -fx-text-fill: #e2e8f0; }
+.token-table .table-row-cell.row-error { -fx-background-color: #3b1219; }
+.token-table .table-row-cell.row-error .table-cell { -fx-text-fill: #fca5a5; }
+.token-table .table-row-cell.row-keyword .table-cell { -fx-text-fill: #7dd3fc; }
+.token-table .table-row-cell.row-string_constant .table-cell,
+.token-table .table-row-cell.row-char_constant .table-cell { -fx-text-fill: #fdba74; }
+.token-table .table-row-cell.row-integer_constant .table-cell { -fx-text-fill: #86efac; }
+.token-table .table-row-cell:selected { -fx-background-color: #0e7490; }
+.token-table .table-row-cell:selected .table-cell { -fx-text-fill: white; }
+.table-placeholder { -fx-text-fill: #475569; }
+
+/* ---------- Diagnostics ---------- */
+.diagnostics-panel { -fx-background-color: #0d1524; }
+.section-label {
+    -fx-text-fill: #67e8f9;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+.console-log {
+    -fx-background-color: #060b14;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-control-inner-background: #060b14;
+    -fx-text-fill: #22d3ee;
+    -fx-font-size: 11px;
+}
+.console-log .content { -fx-background-color: #060b14; }
+
+.token-rate-chart { -fx-background-color: transparent; }
+.token-rate-chart .chart-plot-background { -fx-background-color: #0d1524; }
+.token-rate-chart .default-color0.chart-series-line {
+    -fx-stroke: #22d3ee;
+    -fx-stroke-width: 2;
+}
+.token-rate-chart .axis { -fx-tick-label-fill: #64748b; }
+.token-rate-chart .axis-label { -fx-text-fill: #64748b; }
+.token-rate-chart .chart-vertical-grid-lines,
+.token-rate-chart .chart-horizontal-grid-lines { -fx-stroke: #1e293b; }
+.token-rate-chart .chart-vertical-zero-line,
+.token-rate-chart .chart-horizontal-zero-line { -fx-stroke: #334155; }
+.token-rate-chart .chart-title { -fx-text-fill: #cbd5e1; }
+
+/* ---------- Status Bar ---------- */
+.status-bar {
+    -fx-background-color: #101a2c;
+    -fx-border-color: #1e293b transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+}
+.status-item {
+    -fx-text-fill: #94a3b8;
+    -fx-font-size: 11px;
+}
+
+/* ---------- Split panes ---------- */
+.split-pane { -fx-background-color: #0b1220; }
+.split-pane-divider { -fx-background-color: #1e293b; -fx-padding: 0 1 0 1; }
+
+/* ---------- Scrollbars ---------- */
+.scroll-bar { -fx-background-color: transparent; }
+.scroll-bar .thumb { -fx-background-color: #334155; -fx-background-radius: 4; }

@@ -1,0 +1,269 @@
+Token: KEYWORD
+Lexeme: int
+Line No: 3
+
+Token: IDENTIFIER
+Lexeme: gcd
+Line No: 3
+
+Token: PUNCTUATOR
+Lexeme: (
+Line No: 3
+
+Token: KEYWORD
+Lexeme: int
+Line No: 3
+
+Token: IDENTIFIER
+Lexeme: a
+Line No: 3
+
+Token: PUNCTUATOR
+Lexeme: ,
+Line No: 3
+
+Token: KEYWORD
+Lexeme: int
+Line No: 3
+
+Token: IDENTIFIER
+Lexeme: b
+Line No: 3
+
+Token: PUNCTUATOR
+Lexeme: )
+Line No: 3
+
+Token: PUNCTUATOR
+Lexeme: {
+Line No: 3
+
+Token: KEYWORD
+Lexeme: while
+Line No: 4
+
+Token: PUNCTUATOR
+Lexeme: (
+Line No: 4
+
+Token: IDENTIFIER
+Lexeme: b
+Line No: 4
+
+Token: OPERATOR
+Lexeme: !=
+Line No: 4
+
+Token: INTEGER_CONSTANT
+Lexeme: 0
+Line No: 4
+
+Token: PUNCTUATOR
+Lexeme: )
+Line No: 4
+
+Token: PUNCTUATOR
+Lexeme: {
+Line No: 4
+
+Token: KEYWORD
+Lexeme: int
+Line No: 5
+
+Token: IDENTIFIER
+Lexeme: t
+Line No: 5
+
+Token: OPERATOR
+Lexeme: =
+Line No: 5
+
+Token: IDENTIFIER
+Lexeme: b
+Line No: 5
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 5
+
+Token: IDENTIFIER
+Lexeme: b
+Line No: 6
+
+Token: OPERATOR
+Lexeme: =
+Line No: 6
+
+Token: IDENTIFIER
+Lexeme: a
+Line No: 6
+
+Token: OPERATOR
+Lexeme: %
+Line No: 6
+
+Token: IDENTIFIER
+Lexeme: b
+Line No: 6
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 6
+
+Token: IDENTIFIER
+Lexeme: a
+Line No: 7
+
+Token: OPERATOR
+Lexeme: =
+Line No: 7
+
+Token: IDENTIFIER
+Lexeme: t
+Line No: 7
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 7
+
+Token: PUNCTUATOR
+Lexeme: }
+Line No: 8
+
+Token: KEYWORD
+Lexeme: return
+Line No: 9
+
+Token: IDENTIFIER
+Lexeme: a
+Line No: 9
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 9
+
+Token: PUNCTUATOR
+Lexeme: }
+Line No: 10
+
+Token: KEYWORD
+Lexeme: int
+Line No: 12
+
+Token: IDENTIFIER
+Lexeme: main
+Line No: 12
+
+Token: PUNCTUATOR
+Lexeme: (
+Line No: 12
+
+Token: PUNCTUATOR
+Lexeme: )
+Line No: 12
+
+Token: PUNCTUATOR
+Lexeme: {
+Line No: 12
+
+Token: KEYWORD
+Lexeme: char
+Line No: 13
+
+Token: IDENTIFIER
+Lexeme: sep
+Line No: 13
+
+Token: OPERATOR
+Lexeme: =
+Line No: 13
+
+Token: CHAR_CONSTANT
+Lexeme: '\t'
+Line No: 13
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 13
+
+Token: KEYWORD
+Lexeme: char
+Line No: 14
+
+Token: OPERATOR
+Lexeme: *
+Line No: 14
+
+Token: IDENTIFIER
+Lexeme: msg
+Line No: 14
+
+Token: OPERATOR
+Lexeme: =
+Line No: 14
+
+Token: STRING_CONSTANT
+Lexeme: "gcd(48, 18) = %d\n"
+Line No: 14
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 14
+
+Token: KEYWORD
+Lexeme: int
+Line No: 15
+
+Token: IDENTIFIER
+Lexeme: result
+Line No: 15
+
+Token: OPERATOR
+Lexeme: =
+Line No: 15
+
+Token: IDENTIFIER
+Lexeme: gcd
+Line No: 15
+
+Token: PUNCTUATOR
+Lexeme: (
+Line No: 15
+
+Token: INTEGER_CONSTANT
+Lexeme: 48
+Line No: 15
+
+Token: PUNCTUATOR
+Lexeme: ,
+Line No: 15
+
+Token: INTEGER_CONSTANT
+Lexeme: 18
+Line No: 15
+
+Token: PUNCTUATOR
+Lexeme: )
+Line No: 15
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 15
+
+Token: KEYWORD
+Lexeme: return
+Line No: 16
+
+Token: INTEGER_CONSTANT
+Lexeme: 0
+Line No: 16
+
+Token: PUNCTUATOR
+Lexeme: ;
+Line No: 16
+
+Token: PUNCTUATOR
+Lexeme: }
+Line No: 17
+
+Total tokens: 67, errors: 0
